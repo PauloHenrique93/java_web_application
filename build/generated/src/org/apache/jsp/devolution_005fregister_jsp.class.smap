@@ -1,0 +1,14 @@
+SMAP
+devolution_005fregister_jsp.java
+JSP
+*S JSP
+*F
++ 0 devolution_register.jsp
+devolution_register.jsp
++ 1 header.jsp
+header.jsp
+*L
+5,15:49
+5#1,45:64
+19#0,39:109
+*E

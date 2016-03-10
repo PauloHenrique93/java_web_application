@@ -21,13 +21,13 @@
     <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Cadastro
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="#">Cliente</a></li>
-      <li><a href="#">Locação</a></li>
-      <li><a href="#">Título</a></li>
-      <li><a href="#">Atores</a></li>
-      <li><a href="#">Diretor</a></li>
-      <li><a href="#">Classe</a></li>
-      <li><a href="#">Item</a></li>
+      <li><a href="associate_client_register">Cliente</a></li>
+      <li><a href="lease_register.jsp">Locação</a></li>
+      <li><a href="title_register.jsp">Título</a></li>
+      <li><a href="actor_register.jsp">Atores</a></li>
+      <li><a href="director_register.jsp">Diretor</a></li>
+      <li><a href="class_register.jsp">Classe</a></li>
+      <li><a href="item_register.jsp">Item</a></li>
     </ul>
   </div>
 

@@ -15,10 +15,6 @@
     </head>
     <body class="home-background">
 
-        <header>
-            <%@ include file = "header.jsp" %>
-        </header>
-
         <section id="main">
 
             <h1 class="main-title">Casa dos Filmes</h1>
