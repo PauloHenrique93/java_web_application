@@ -1,0 +1,14 @@
+SMAP
+associete_005fclient_005fregister_jsp.java
+JSP
+*S JSP
+*F
++ 0 associete_client_register.jsp
+associete_client_register.jsp
++ 1 header.jsp
+header.jsp
+*L
+5,16:49
+5#1,45:65
+20#0,126:110
+*E
