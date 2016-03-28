@@ -10,47 +10,37 @@
     <head>
         <title> Registro de Locação</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body class="employee-background">
+    <body>
 
         <header>
             <%@ include file = "header.jsp" %>
         </header>
 
         <section id="main">
-            <div class="row">
-
-                <div class="col-md-6">
+           
                     </form>
 
-                    <div class="row">
-                        <div class="col-md-3">
+                    
                             <label for="serialNumber">Número de Série</label>
-                            <input type="number" min="0" name="serialNumber" class="form-control">
-                        </div>
-                    </div>	
+                            <input type="number" min="0" name="serialNumber" >
+                      
 
                     </form>
-                </div>
-            </div>
+               
 
-            <br/><br/><br/>
-
-            <div class="row">
-                <div class="col-md-2">		
-                    <button type="submit" class="btn btn-primary"> 
+            
+            		
+                    <button type="submit" > 
                         Consultar
                     </button>
-                </div>
+                
 
-                <div class="col-md-2">	
-                    <button type="submit" class="btn btn-success"> 
+                
+                    <button type="submit" > 
                         Efetivar Devolução
                     </button>
-                </div>
-            </div>
+               
         </section>
     </body>
 </html>

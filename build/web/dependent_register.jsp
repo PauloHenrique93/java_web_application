@@ -10,82 +10,63 @@
     <head>
         <title> Registro de Dependente</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+
     </head>
-    <body class="employee-background">
+    <body >
 
         <header>
             <%@ include file = "header.jsp" %>
         </header>
 
         <section id="main">
-            <div class="row">
 
-                <div class="col-md-6">
-                    <form>
-                        <fieldset>
-                            <legend> Dados Pessoais </legend>		
-                            <label for="name">Nome</label>
-                            <input type="text" name="name" class="form-control" />
+            <form>
+                <fieldset>
+                    <legend> Dados Pessoais </legend>		
+                    <label for="name">Nome</label>
+                    <input type="text" name="name"  />
 
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="birthDate">Data de Nascimento</label>
-                                    <input type="date" name="birthDate" class="form-control"/>
-                                </div>
 
-                                <div class="col-md-3"></div>
+                    <label for="birthDate">Data de Nascimento</label>
+                    <input type="date" name="birthDate"/>
 
-                                <div class="col-md-6">
-                                    <label for="gender">Sexo</label>
-                                    <select name="gender" id="gender" class="form-control">
-                                        <option value="true">Feminino</option>
-                                        <option value="false">Masculino</option>
-                                    </select>
-                                </div>
-                            </div>
 
-                        </fieldset>
+                    <label for="gender">Sexo</label>
+                    <select name="gender" id="gender">
+                        <option value="true">Feminino</option>
+                        <option value="false">Masculino</option>
+                    </select>
 
-                        <br/><br/><br/>
+                </fieldset>
 
-                        <fieldset>
-                            <legend> Informações Técnicas </legend>
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <label for="numberInscription">Nº de incrição (usar um random aqui)</label>
-                                    <input type="number" name="numberInscription" placeholder="1234" autofocus class="form-control"/>
-                                </div>
+                <fieldset>
+                    <legend> Informações Técnicas </legend>
 
-                                <div class="col-md-3">
-                                    <label for="status">Status</label>
-                                    <select name="status" id="status" class="form-control" disabled="true">
-                                        <option value="true">Ativo</option>
-                                        <option value="false">Inativo</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </form>
-                </div>
+                    <label for="numberInscription">Nº de incrição (usar um random aqui)</label>
+                    <input type="number" name="numberInscription" placeholder="1234" autofocus />
 
-            </div>
 
-            <br/><br/><br/>
 
-            <div class="row">
-                <div class="col-md-2">		
-                    <button type="submit" class="btn btn-primary"> 
-                        Confirmar registro
-                    </button>
-                </div>
+                    <label for="status">Status</label>
+                    <select name="status" id="status"  disabled="true">
+                        <option value="true">Ativo</option>
+                        <option value="false">Inativo</option>
+                    </select>
 
-                <div class="col-md-2">	
-                    <button type="submit" class="btn btn-success"> 
-                        Excluir
-                    </button>
-                </div>
+                </fieldset>
+            </form>
+
+
+            <button type="submit"> 
+                Confirmar registro
+            </button>
+
+
+
+            <button type="submit"> 
+                Excluir
+            </button>
+
         </section>
     </body>
 </html>

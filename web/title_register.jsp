@@ -10,101 +10,77 @@
     <head>
         <title>Registro de Titulo</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+
     </head>
-    <body class="employee-background">
+    <body >
 
         <header>
             <%@ include file = "header.jsp" %>
         </header>
 
         <section id="main">
-            <div class="row">
 
-                <div class="col-md-6">
+            <form>
 
-                    <form>
-
-                        <label for="name">Nome</label>
-                        <input type="text" name="name" class="form-control">
+                <label for="name">Nome</label>
+                <input type="text" name="name" >
 
 
-                        <div class="row">
-                            <div class="col-md-5">
-                                <label for="actor">Atores</label>
-                                <select name="actor" id="actor" class="form-control">
-                                    <option value="true">ator1</option>
-                                    <option value="false">ator2</option>
-                                </select>
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-5">
-                                <label for="director">Diretor</label>
-                                <select name="director" id="director" class="form-control">
-                                    <option value="true">diretor1</option>
-                                    <option value="false">diretor2</option>
-                                </select>
-                            </div>	
-                        </div>
+                <label for="actor">Atores</label>
+                <select name="actor" id="actor" >
+                    <option value="true">ator1</option>
+                    <option value="false">ator2</option>
+                </select>
 
-                        <div class="row">
-                            <div class="col-md-3">
-                                <label for="year">Ano</label>
-                                <input type="number" name="year" class="form-control">
-                            </div>
-                        </div>
 
-                    </form>
-                </div>
 
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <label for="category">Categoria</label>
-                            <select name="category" id="category" class="form-control">
-                                <option value="true">categoria1</option>
-                                <option value="false">categoria2</option>
-                            </select>
-                        </div>
-                    </div>
+                <label for="director">Diretor</label>
+                <select name="director" id="director" >
+                    <option value="true">diretor1</option>
+                    <option value="false">diretor2</option>
+                </select>
 
-                    <div class="row">
-                        <div class="col-md-5">
-                            <label for="classe">Classe</label>
-                            <select name="class" id="class" class="form-control">
-                                <option value="true">classe1</option>
-                                <option value="false">classe2</option>
-                            </select>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-md-7">
-                            <label for="synopsis">Sinopse</label>
-                            <textarea name="synopsis" class="form-control"></textarea>
-                        </div>
-                    </div>
 
-                </div> <!--close second column -->
-            </div> <!--close main row -->
+                <label for="year">Ano</label>
+                <input type="number" name="year" >
 
-            <br/><br/><br/>
 
-            <div class="row">
-                <div class="col-md-2">		
-                    <button type="submit" class="btn btn-primary"> 
-                        Confirmar registro
-                    </button>
-                </div>
 
-                <div class="col-md-2">	
-                    <button type="submit" class="btn btn-success"> 
-                        Excluir
-                    </button>
-                </div>
+                <label for="category">Categoria</label>
+                <select name="category" id="category" >
+                    <option value="true">categoria1</option>
+                    <option value="false">categoria2</option>
+                </select>
+
+
+
+                <label for="classe">Classe</label>
+                <select name="class" id="class">
+                    <option value="true">classe1</option>
+                    <option value="false">classe2</option>
+                </select>
+
+
+
+                <label for="synopsis">Sinopse</label>
+                <textarea name="synopsis"></textarea>
+
+
+            </form>
+
+
+
+
+            <button type="submit"> 
+                Confirmar registro
+            </button>
+
+            <button type="submit" > 
+                Excluir
+            </button>
+
         </section>
 
     </body>

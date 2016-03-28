@@ -10,39 +10,30 @@
     <head>
         <title>Registro de Ator</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body class="employee-background">
+    <body>
 
         <header>
             <%@ include file = "header.jsp" %>
         </header>
 
         <section id="main">
-            <div class="row">
-                <div class="col-md-6">
-                    <form>
-                        <label for="name">Nome</label>
-                        <input type="text" name="name" class="form-control">
-                    </form>
-                </div>
-            </div>
+            <form>
+                <label for="name">Nome</label>
+                <input type="text" name="name">
+            </form>
 
-            <br/><br/><br/>
 
-            <div class="row">
-                <div class="col-md-2">		
-                    <button type="submit" class="btn btn-primary"> 
-                        Confirmar registro
-                    </button>
-                </div>
+            <button type="submit" > 
+                Confirmar registro
+            </button>
 
-                <div class="col-md-2">	
-                    <button type="submit" class="btn btn-success"> 
-                        Excluir
-                    </button>
-                </div>
+
+
+            <button type="submit"> 
+                Excluir
+            </button>
+
         </section>
 
     </body>

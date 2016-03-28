@@ -10,78 +10,57 @@
     <head>
         <title> Registro de Locação</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body class="employee-background">
+    <body >
 
         <header>
             <%@ include file = "header.jsp" %>
         </header>
 
         <section id="main">
-            <div class="row">
 
-                <div class="col-md-6">
-                    </form>
+        </form>
 
-                    <div class="row">
-                        <div class="col-md-3">
-                            <label>Número de Inscrição do Cliente</label>
-                            <input type="text" list="inscriptionNumber" autocomplete="on" class="form-control">
-                            <datalist id="inscriptionNumber">
-                                <option value="inscrição1">
-                                <option value="inscrição2">
-                            </datalist>
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-md-7">
-                            <label>Título</label>
-                            <input type="text" list="movies" autocomplete="on" class="form-control">
-                            <datalist id="movies">
-                                <option value="filme1">
-                                <option value="filme2">
-                            </datalist>
-                        </div>
-                        <br /><br />
-                        <label class="available">Disponível</label> ou
-                        <label class="unavailable">Indisponível</label>
-                    </div>
+        <label>Número de Inscrição do Cliente</label>
+        <input type="text" list="inscriptionNumber" autocomplete="on">
+        <datalist id="inscriptionNumber">
+            <option value="inscrição1">
+            <option value="inscrição2">
+        </datalist>
 
 
 
-                    <div class="row">
-                        <div class="col-md-3">
-                            <label for="typeItem">Tipo</label>
-                            <select name="typeItem" id="typeItem" class="form-control">
-                                <option value="true">Fita</option>
-                                <option value="false">DVD</option>
-                                <option value="false">Blueray</option>
-                            </select>
-                        </div>
-                    </div>
+        <label>Número de Inscrição do Filme</label>
+        <input type="text" list="movies" autocomplete="on" >
+        <datalist id="movies">
+            <option value="nInscr">
+            <option value="nInscr">
+        </datalist>
 
-                    </form>
-                </div>
-            </div>
+        <label>Disponível</label> ou
+        <label>Indisponível</label>
 
-            <br/><br/><br/>
 
-            <div class="row">
-                <div class="col-md-2">		
-                    <button type="submit" class="btn btn-primary"> 
-                        Confirmar registro
-                    </button>
-                </div>
+        <label for="typeItem">Tipo</label>
+        <select name="typeItem" id="typeItem" >
+            <option value="true">Fita</option>
+            <option value="false">DVD</option>
+            <option value="false">Blueray</option>
+        </select>
 
-                <div class="col-md-2">	
-                    <button type="submit" class="btn btn-success"> 
-                        Excluir
-                    </button>
-                </div>
-            </div>
-        </section>
-    </body>
+
+    </form>
+
+
+    <button type="submit" > 
+        Confirmar registro
+    </button>
+
+    <button type="submit" > 
+        Excluir
+    </button>
+
+</section>
+</body>
 </html>

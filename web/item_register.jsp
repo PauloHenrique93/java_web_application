@@ -10,64 +10,45 @@
     <head>
         <title>Registro de Item</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+
     </head>
-    <body class="employee-background">
+    <body >
 
         <header>
             <%@ include file = "header.jsp" %>
         </header>
 
         <section id="main">
-            <div class="row">
-                <div class="col-md-6">
+            <label for="serialNumber">Número de Série</label>
+            <input type="number" min="0" name="serialNumber">
 
-                    <div class="row">
-                        <div class="col-md-3">
-                            <label for="serialNumber">Número de Série</label>
-                            <input type="number" min="0" name="serialNumber" class="form-control">
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="col-md-5">
-                            <label for="titleItem">Titulo</label>
-                            <select name="titleItem" id="titleItem" class="form-control">
-                                <option value="true">titulo1</option>
-                                <option value="false">titulo2</option>
-                            </select>
-                        </div>
-                    </div>
+            <label for="titleItem">Titulo</label>
+            <select name="titleItem" id="titleItem">
+                <option value="true">titulo1</option>
+                <option value="false">titulo2</option>
+            </select>
 
-                    <div class="row">
-                        <div class="col-md-5">
-                            <label for="typeItem">Tipo</label>
-                            <select name="typeItem" id="typeItem" class="form-control">
-                                <option value="true">Fita</option>
-                                <option value="false">DVD</option>
-                                <option value="false">Blueray</option>
-                            </select>
-                        </div>
-                    </div>
 
-                </div> <!--close column -->
-            </div> <!--close main row -->
 
-            <br/><br/><br/>
+            <label for="typeItem">Tipo</label>
+            <select name="typeItem" id="typeItem">
+                <option value="true">Fita</option>
+                <option value="false">DVD</option>
+                <option value="false">Blueray</option>
+            </select>
 
-            <div class="row">
-                <div class="col-md-2">		
-                    <button type="submit" class="btn btn-primary"> 
-                        Confirmar registro
-                    </button>
-                </div>
 
-                <div class="col-md-2">	
-                    <button type="submit" class="btn btn-success"> 
-                        Excluir
-                    </button>
-                </div>
+            <button type="submit" > 
+                Confirmar registro
+            </button>
+
+
+
+            <button type="submit" > 
+                Excluir
+            </button>
+
 
         </section>
 

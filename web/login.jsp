@@ -10,28 +10,28 @@
     <head>
         <title>Home</title>
         <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body class="home-background">
+    <body >
 
         <section id="main">
 
             <h1 class="main-title">Casa dos Filmes</h1>
 
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+           
+            <ul>
+                <li>
+                
+                    <a href="search_title.jsp">Cliente</a>
+              
+                </li>
 
-            <div class="row">
-                <button type="submit" class="btn my-btn"> 
-                    Cliente
-                </button>
-            </div>
-
-            <div class="row">
-                <button type="submit" class="btn my-btn"> 
-                    Funcionário
-                </button>
-            </div>
+                <li>
+                
+                    <a href="home.jsp">  Funcionário </a>
+               
+                </li>
+            </ul>
+            
 
 
         </section>
